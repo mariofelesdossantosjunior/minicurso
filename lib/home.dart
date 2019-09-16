@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
             children: <Widget>[
               Expanded(
                 child: ListView.builder(
-                  reverse: true,
+                  reverse: false,
                   itemCount: snapshot.data.length,
                   itemBuilder: (context, index) {
                     return ListTile(
